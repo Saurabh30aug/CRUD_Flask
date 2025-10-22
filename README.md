@@ -57,3 +57,19 @@ CRUD_Flask/
 ├── requirements.txt      # Python dependencies
 ├── Procfile              # Heroku deployment instructions
 └── README.md             # Project documentation
+
+
+
+Learning Outcomes
+
+By completing this project, you will learn how to:
+
+Build dynamic web apps with Flask.
+
+Connect and interact with a relational database.
+
+Use templating for front-end rendering.
+
+Perform CRUD operations in a web environment.
+
+Deploy Python web applications to the cloud using Heroku.
