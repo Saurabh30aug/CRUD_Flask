@@ -41,3 +41,19 @@ Setting up environment variables via Heroku dashboard.
 Pushing the project repository to Heroku using Git.
 
 Managing dependencies with requirements.txt.
+
+
+Project Structure (Example)
+CRUD_Flask/
+│
+├── app.py                # Main Flask app
+├── templates/            # HTML templates (Jinja2)
+│   ├── index.html
+│   ├── edit.html
+│   └── ...
+├── static/               # CSS, JS, Images
+│   └── style.css
+├── models.py             # Database schema (if used separately)
+├── requirements.txt      # Python dependencies
+├── Procfile              # Heroku deployment instructions
+└── README.md             # Project documentation
