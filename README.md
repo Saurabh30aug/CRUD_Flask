@@ -26,3 +26,18 @@ Delete: Remove records from the database with a single click.
 Routing: Clean URL routes handled with Flask’s @app.route decorators.
 
 Error Handling: Basic exception and error handling to improve UX.
+
+
+Deployment on Heroku
+
+The Flask application is deployed on Heroku, making it accessible online from any device. The deployment process includes:
+
+Creating a Procfile to define the app type.
+
+Using gunicorn as the production WSGI server.
+
+Setting up environment variables via Heroku dashboard.
+
+Pushing the project repository to Heroku using Git.
+
+Managing dependencies with requirements.txt.
